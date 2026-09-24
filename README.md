@@ -1,21 +1,23 @@
-# Disaster-Aware Mobility Forecasting
+# LACE-Mob: A Lag-Aware Context-Enhanced Framework for Human Mobility Forecasting During Disasters
 
-Minimal paper release containing the proposed model and the code required to
-train and test it.
+This repository provides the official implementation of **LACE-Mob**, a
+lag-aware, context-enhanced framework for human mobility forecasting during
+disasters. It contains the proposed model and the code required to train and
+evaluate it.
 
 ## Structure
 
 ```text
-paper_release/
-├── model/
-│   └── model.py          Proposed lag-aware dynamic graph model
-├── data/                 Mobility tensors and adjacency matrices
-├── train.py              Training entry point
-├── test.py               Test-set evaluation entry point
-├── engine.py             Optimization wrapper
-├── util.py               Data loading and metrics
-├── requirements.txt
-└── LICENSE
+LACE-Mob/
+|-- model/
+|   `-- model.py          Proposed lag-aware context-enhanced model
+|-- data/                 Mobility tensors and adjacency matrices
+|-- train.py              Training entry point
+|-- test.py               Test-set evaluation entry point
+|-- engine.py             Optimization wrapper
+|-- util.py               Data loading and metrics
+|-- requirements.txt
+`-- LICENSE
 ```
 
 The release includes processed mobility tensors and adjacency matrices for
