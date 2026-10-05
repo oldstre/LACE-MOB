@@ -21,10 +21,10 @@ LACE-Mob/
 ```
 
 The release includes processed mobility tensors and adjacency matrices for
-`Japan_Typoon_in`, `Japan_Typoon_out`, `Florida`, and `NYC_Storm_in`.
+`Japan_Typoon_in`, `Japan_Typoon_out`, `Florida`.
 
 The CA-Fire dataset and the external-condition data used in this study,
-including disaster-related tweet counts, precipitation, wind, and PM2.5, were
+including disaster-related tweet counts, precipitation, and PM2.5, were
 collected and processed by the authors from multiple sources. These data are
 not redistributed because they may be subject to privacy considerations,
 source-platform terms of use, and third-party licensing or redistribution
